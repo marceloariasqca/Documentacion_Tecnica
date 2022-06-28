@@ -1,0 +1,25 @@
+Construye una página de documentación técnica
+
+Objetivo: Crear una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks
+
+Historias de usuario:
+
+    Puedes ver un elemento main con un id="main-doc" correspondiente, que contiene el contenido principal de la página (documentación técnica)
+    Dentro del elemento #main-doc, puedes ver varios elementos de section, cada uno con una clase de main-section. Debe haber un mínimo de cinco
+    El primer elemento dentro de cada .main-section debe ser un elemento header, que contiene texto que describe el tema de esa sección.
+    Cada elemento section con la clase de main-section también debe tener un id que corresponda con el texto de cada header contenido en él. Cualquier espacio debe ser reemplazado por guiones bajos (p.ej. La sección que contiene el encabezado "JavaScript y Java" debe tener un id="JavaScript_and_Java") correspondiente
+    Los elementos .main-section deben contener al menos diez elementos p en total (no cada uno)
+    Los elementos .main-section deben contener al menos cinco elementos code en total (no cada uno)
+    Los elementos .main-section deben contener al menos cinco elementos li en total (no cada uno)
+    Puedes ver un elemento nav con un correspondiente id="navbar"
+    El elemento de la barra de navegación debe contener un elemento de header que contiene texto que describe el tema de la documentación técnica
+    Además, la barra de navegación debe contener elementos de enlace (a) con la clase de nav-link. Debe haber uno para cada elemento con la clase main-section
+    El elemento header en la #navbar debe venir antes de cualquier enlace (a) en la barra de navegación
+    Cada elemento con la clase de nav-link debe contener texto que corresponda al texto header dentro de cada section (p.ej. Si tienes una sección/encabezado "Hola mundo", tu barra de navegación debe tener un elemento que contenga el texto "Hola mundo")
+    Cuando hagas clic en un elemento de la barra de navegación, la página debe navegar a la sección correspondiente del elemento main-doc (p. ej. Si haces clic en un elemento nav-link que contiene el texto "Hola mundo", la página navega a un elemento section con ese id y contiene el encabezado correspondiente)
+    En dispositivos de tamaño normal (portátiles, escritorios), el elemento con id="navbar" debe mostrarse en el lado izquierdo de la pantalla y siempre debe ser visible para el usuario
+    Tu documentación técnica debe usar al menos una consulta de medios
+
+Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+
+Nota: Asegúrate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
